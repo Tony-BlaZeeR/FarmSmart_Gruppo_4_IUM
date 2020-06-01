@@ -17,7 +17,7 @@
         android:background="@drawable/background"
         android:scaleType="center"
         android:adjustViewBounds="true"
-        android:contentDescription="TODO" />
+        android:contentDescription="ciao" />
 
 
     <LinearLayout
