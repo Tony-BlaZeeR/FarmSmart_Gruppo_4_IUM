@@ -40,24 +40,38 @@
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:layout_marginTop="50dp"
-            android:background="@color/Agricoltore"
-            android:text="Agricoltore" />
+            android:background="@drawable/button_agricoltore"
+            android:paddingLeft="25dp"
+            android:drawableLeft="@drawable/agricoltore"
+            android:text="Agricoltore"
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:layout_marginTop="25dp"
-            android:background="@color/Allevatore"
-            android:text="Allevatore" />
+            android:background="@drawable/button_allevatore"
+
+            android:drawableLeft="@drawable/allevatore"
+            android:paddingLeft="25dp"
+            android:text="Allevatore"
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:layout_marginTop="25dp"
-            android:background="@color/Vivaista"
-            android:text="Vivaista" />
+            android:background="@drawable/button_vivaista"
+            android:drawableLeft="@drawable/vivaista"
+            android:paddingLeft="25dp"
+            android:text="Vivaista"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorPrimary">#909090</color>
+    <color name="colorPrimaryDark">#707070</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="Agricoltore">#FFEE58</color>
     <color name="Allevatore">#81D4FA</color>
     <color name="Vivaista">#AED581</color>
+    <color name="Bordo_button">#D8D8D8</color>
 </resources>
