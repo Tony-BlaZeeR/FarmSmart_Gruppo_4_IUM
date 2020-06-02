@@ -31,21 +31,25 @@
         app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.623"
+        app:layout_constraintVertical_bias="0.71000004"
         app:rowCount="2">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="97dp"
-            android:text="@string/allevatore"
-            android:textAllCaps="true"
             android:background="@color/Allevatore"
+            android:drawableStart="@drawable/allevatore"
+            android:paddingStart="30dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="10dp"
+            android:paddingVertical="30dp"
+            android:text="@string/allevatore"
             android:textAlignment="center"
+            android:textAllCaps="true"
             android:textColor="@color/Grid_text"
-            android:textStyle="bold"
             android:textSize="25sp"
-            android:paddingTop="30dp"
+            android:textStyle="bold"
             app:layout_column="0"
             app:layout_row="0" />
 
@@ -53,28 +57,29 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/stato_mangiotoie"
-            android:layout_marginTop="60dp"
             android:layout_marginStart="30dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/stato_mangiotoie"
             app:layout_column="0"
             app:layout_row="1" />
 
         <ProgressBar
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="wrap_content"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="94dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="60dp"
             android:layout_marginStart="200dp"
+            android:layout_marginTop="65dp"
             app:layout_column="0"
             app:layout_row="1" />
+
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/mangiatoie"
-            android:layout_marginTop="150dp"
             android:layout_marginStart="30dp"
+            android:layout_marginTop="150dp"
+            android:text="@string/mangiatoie"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -82,31 +87,29 @@
             android:id="@+id/switch1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Switch"
-            android:layout_marginTop="150dp"
             android:layout_marginStart="200dp"
+            android:layout_marginTop="150dp"
+            android:text="Switch"
             app:layout_column="0"
             app:layout_row="1" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/cancelli_pascolo"
-            android:layout_marginTop="240dp"
             android:layout_marginStart="30dp"
+            android:layout_marginTop="240dp"
+            android:text="@string/cancelli_pascolo"
             app:layout_column="0"
             app:layout_row="1" />
 
         <Switch
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Switch"
-            android:layout_marginTop="240dp"
             android:layout_marginStart="200dp"
+            android:layout_marginTop="240dp"
+            android:text="Switch"
             app:layout_column="0"
             app:layout_row="1" />
-
-
 
 
     </androidx.gridlayout.widget.GridLayout>
