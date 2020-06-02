@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:text="@string/stato_mangiotoie"
             android:layout_marginTop="60dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -64,7 +64,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
-            android:layout_marginLeft="200dp"
+            android:layout_marginStart="200dp"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:text="@string/mangiatoie"
             android:layout_marginTop="150dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -84,7 +84,7 @@
             android:layout_height="wrap_content"
             android:text="Switch"
             android:layout_marginTop="150dp"
-            android:layout_marginLeft="200dp"
+            android:layout_marginStart="200dp"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -93,7 +93,7 @@
             android:layout_height="wrap_content"
             android:text="@string/cancelli_pascolo"
             android:layout_marginTop="240dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -102,7 +102,7 @@
             android:layout_height="wrap_content"
             android:text="Switch"
             android:layout_marginTop="240dp"
-            android:layout_marginLeft="200dp"
+            android:layout_marginStart="200dp"
             app:layout_column="0"
             app:layout_row="1" />
 

@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:text="@string/temperatura"
             android:layout_marginTop="30dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:text="@string/temperatura_gradi"
             android:layout_marginTop="30dp"
-            android:layout_marginLeft="200dp"
+            android:layout_marginStart="200dp"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:text="@string/umidit"
             android:layout_marginTop="90dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -83,7 +83,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="90dp"
-            android:layout_marginLeft="200dp"
+            android:layout_marginStart="200dp"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -93,7 +93,7 @@
             android:layout_height="wrap_content"
             android:text="@string/luci_serra"
             android:layout_marginTop="150dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -102,7 +102,7 @@
             android:layout_height="wrap_content"
             android:text="Switch"
             android:layout_marginTop="150dp"
-            android:layout_marginLeft="200dp"
+            android:layout_marginStart="200dp"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -111,7 +111,7 @@
             android:layout_height="wrap_content"
             android:text="@string/annaffiatoi"
             android:layout_marginTop="210dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -120,7 +120,7 @@
             android:layout_height="wrap_content"
             android:text="Switch"
             android:layout_marginTop="210dp"
-            android:layout_marginLeft="200dp"
+            android:layout_marginStart="200dp"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -129,7 +129,7 @@
             android:layout_height="wrap_content"
             android:text="@string/portelloni"
             android:layout_marginTop="270dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -138,7 +138,7 @@
             android:layout_height="wrap_content"
             android:text="Switch"
             android:layout_marginTop="270dp"
-            android:layout_marginLeft="200dp"
+            android:layout_marginStart="200dp"
             app:layout_column="0"
             app:layout_row="1" />
 
