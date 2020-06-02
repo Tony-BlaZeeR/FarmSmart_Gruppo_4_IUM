@@ -7,10 +7,17 @@
     <string name="umidit_del_terreno">umidità del terreno</string>
     <string name="qualit_del_terreno">qualità del terreno</string>
     <string name="temperatura_esterna">Temperatura esterna:</string>
-    <string name="temperatura">30°</string>
+    <string name="temperatura_gradi">30°</string>
     <string name="umidit">Umidità:</string>
     <string name="irrigatori">Irrigatori:</string>
     <string name="aspiratori">Aspiratori:</string>
     <string name="qualit_biologica">Qualità biologica</string>
     <string name="microinquinanti">Microinquinanti</string>
+    <string name="stato_mangiotoie">Stato mangiotoie</string>
+    <string name="mangiatoie">Mangiatoie</string>
+    <string name="cancelli_pascolo">Cancelli pascolo</string>
+    <string name="temperatura">Temperatura:</string>
+    <string name="luci_serra">Luci serra</string>
+    <string name="annaffiatoi">Annaffiatoi</string>
+    <string name="portelloni">Portelloni</string>
 </resources>

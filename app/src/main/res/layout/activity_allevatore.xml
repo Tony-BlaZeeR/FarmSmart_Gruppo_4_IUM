@@ -38,7 +38,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="97dp"
-            android:text="@string/agricoltore"
+            android:text="@string/allevatore"
             android:textAllCaps="true"
             android:background="@color/Allevatore"
             android:textAlignment="center"
@@ -48,6 +48,66 @@
             android:paddingTop="30dp"
             app:layout_column="0"
             app:layout_row="0" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stato_mangiotoie"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="30dp"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="200dp"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mangiatoie"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="30dp"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Switch"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="200dp"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancelli_pascolo"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="30dp"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Switch"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="200dp"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+
+
 
     </androidx.gridlayout.widget.GridLayout>
 
