@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">FarmSmart</string>
+    <string name="background">Foto di un campo di grano di una fattoria</string>
+    <string name="agricoltore">Agricoltore</string>
+    <string name="allevatore">Allevatore</string>
+    <string name="vivaista">Vivaista</string>
+    <string name="umidit_del_terreno">umidità del terreno</string>
+    <string name="qualit_del_terreno">qualità del terreno</string>
+    <string name="temperatura_esterna">Temperatura esterna:</string>
+    <string name="temperatura">30°</string>
+    <string name="umidit">Umidità:</string>
+    <string name="irrigatori">Irrigatori:</string>
+    <string name="aspiratori">Aspiratori:</string>
+    <string name="qualit_biologica">Qualità biologica</string>
+    <string name="microinquinanti">Microinquinanti</string>
 </resources>

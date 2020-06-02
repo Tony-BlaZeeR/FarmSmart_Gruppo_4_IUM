@@ -1,78 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="411dp"
-        android:layout_height="731dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@drawable/background1"
-        android:scaleType="center"
-        android:adjustViewBounds="true"
-        android:contentDescription="ciao1" />
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="411dp"
+    android:layout_height="731dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:background="@drawable/background1"
+    android:scaleType="center"
+    android:adjustViewBounds="true"
+    android:contentDescription="@string/background" />
 
 
-    <LinearLayout
-        android:layout_width="346dp"
-        android:layout_height="533dp"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="150dp"
-        android:layout_marginEnd="35dp"
-        android:layout_marginBottom="50dp"
-        android:orientation="vertical"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+<LinearLayout
+    android:layout_width="346dp"
+    android:layout_height="533dp"
+    android:layout_marginStart="35dp"
+    android:layout_marginTop="150dp"
+    android:layout_marginEnd="35dp"
+    android:layout_marginBottom="50dp"
+    android:orientation="vertical"
+    android:visibility="visible"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
 
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:layout_marginTop="50dp"
-            android:background="@drawable/button_agricoltore"
-            android:paddingLeft="25dp"
-            android:drawableLeft="@drawable/agricoltore"
-            android:text="Agricoltore"
-            android:textSize="25dp"
-            android:textStyle="bold" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_agricoltore"
+        android:drawableStart="@drawable/agricoltore"
+        android:paddingStart="25dp"
+        android:paddingEnd="0dp"
+        android:text="@string/agricoltore"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/button_allevatore"
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_allevatore"
 
-            android:drawableLeft="@drawable/allevatore"
-            android:paddingLeft="25dp"
-            android:text="Allevatore"
-            android:textSize="25dp"
-            android:textStyle="bold" />
+        android:drawableStart="@drawable/allevatore"
+        android:paddingStart="25dp"
+        android:paddingEnd="0dp"
+        android:text="@string/allevatore"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:layout_marginTop="25dp"
-            android:background="@drawable/button_vivaista"
-            android:drawableLeft="@drawable/vivaista"
-            android:paddingLeft="25dp"
-            android:text="Vivaista"
-            android:textAlignment="center"
-            android:textSize="25dp"
-            android:textStyle="bold" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_vivaista"
+        android:drawableStart="@drawable/vivaista"
+        android:paddingStart="25dp"
+        android:paddingEnd="0dp"
+        android:text="@string/vivaista"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
-    </LinearLayout>
+</LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
