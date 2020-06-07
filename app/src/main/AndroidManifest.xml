@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity_agricoltore" />
+        <activity android:name=".activity_allevatore" />
+        <activity android:name=".activity_vivaista" />
     </application>
 
 </manifest>

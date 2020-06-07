@@ -45,7 +45,8 @@ tools:context=".MainActivity">
         android:paddingEnd="0dp"
         android:text="@string/agricoltore"
         android:textSize="25sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:onClick="clickAgricoltore"/>
 
     <Button
         android:id="@+id/button2"
@@ -59,7 +60,8 @@ tools:context=".MainActivity">
         android:paddingEnd="0dp"
         android:text="@string/allevatore"
         android:textSize="25sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:onClick="clickAllevatore"/>
 
     <Button
         android:id="@+id/button"
@@ -73,7 +75,8 @@ tools:context=".MainActivity">
         android:text="@string/vivaista"
         android:textAlignment="center"
         android:textSize="25sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:onClick="clickVivaista"/>
 
 </LinearLayout>
 
