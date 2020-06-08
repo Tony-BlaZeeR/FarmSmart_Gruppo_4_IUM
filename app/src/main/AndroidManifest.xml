@@ -17,10 +17,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity_agricoltore"
+
             android:parentActivityName=".MainActivity"/>
         <activity android:name=".activity_allevatore"
+
             android:parentActivityName=".MainActivity"/>
         <activity android:name=".activity_vivaista"
+
             android:parentActivityName=".MainActivity"/>
     </application>
 

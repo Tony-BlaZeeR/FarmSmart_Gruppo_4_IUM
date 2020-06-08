@@ -82,6 +82,15 @@
             app:layout_column="0"
             app:layout_row="1" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="68dp"
+            android:text="livello"
+            app:layout_column="0"
+            app:layout_row="1" />
+
 
         <ProgressBar
             style="@android:style/Widget.ProgressBar.Horizontal"

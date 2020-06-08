@@ -84,6 +84,15 @@
             app:layout_column="0"
             app:layout_row="1" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="68dp"
+            android:text="livello"
+            app:layout_column="0"
+            app:layout_row="1" />
+
 
         <ProgressBar
             style="@android:style/Widget.ProgressBar.Horizontal"
@@ -142,6 +151,16 @@
             app:layout_column="0"
             app:layout_row="1" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="248dp"
+            android:text="livello"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+
         <ProgressBar
             style="@android:style/Widget.ProgressBar.Horizontal"
             android:layout_width="91dp"
@@ -158,6 +177,15 @@
             android:layout_marginStart="30dp"
             android:layout_marginTop="330dp"
             android:text="@string/microinquinanti"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="303dp"
+            android:text="livello"
             app:layout_column="0"
             app:layout_row="1" />
 
