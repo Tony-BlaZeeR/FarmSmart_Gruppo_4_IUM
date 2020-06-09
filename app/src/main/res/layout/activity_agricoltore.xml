@@ -69,7 +69,6 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"
             android:layout_marginTop="30dp"
-            android:text="@string/temperatura_gradi"
             android:id="@+id/temperatura"
             app:layout_column="0"
             app:layout_row="1" />
@@ -85,6 +84,7 @@
             app:layout_row="1" />
 
         <TextView
+            android:id="@+id/livelloUmidita"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"
@@ -115,12 +115,11 @@
             app:layout_row="1" />
 
         <Switch
-            android:id="@+id/switch1"
+            android:id="@+id/switchIrrigatori"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"
             android:layout_marginTop="150dp"
-            android:text="Switch"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -134,11 +133,11 @@
             app:layout_row="1" />
 
         <Switch
+            android:id="@+id/switchAspiratori"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"
             android:layout_marginTop="210dp"
-            android:text="Switch"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -152,6 +151,7 @@
             app:layout_row="1" />
 
         <TextView
+            android:id="@+id/textBiologica"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"
@@ -163,6 +163,7 @@
 
         <ProgressBar
             style="@android:style/Widget.ProgressBar.Horizontal"
+            android:id="@+id/biologicaProgressBar"
             android:layout_width="91dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"
@@ -181,16 +182,17 @@
             app:layout_row="1" />
 
         <TextView
+            android:id="@+id/textInquinanti"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"
             android:layout_marginTop="303dp"
-            android:text="livello"
             app:layout_column="0"
             app:layout_row="1" />
 
         <ProgressBar
             style="@android:style/Widget.ProgressBar.Horizontal"
+            android:id="@+id/inquinantiProgressBar"
             android:layout_width="91dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"

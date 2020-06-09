@@ -64,6 +64,7 @@
             app:layout_row="1" />
 
         <TextView
+            android:id="@+id/livelloTemperatura"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"
@@ -83,6 +84,7 @@
             app:layout_row="1" />
 
         <TextView
+            android:id="@+id/livelloUmidita"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"
@@ -93,12 +95,13 @@
 
 
         <ProgressBar
+            android:id="@+id/umiditaProgressBar"
             style="@android:style/Widget.ProgressBar.Horizontal"
-            android:paddingVertical="35dp"
             android:layout_width="94dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"
             android:layout_marginTop="60dp"
+            android:paddingVertical="35dp"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -112,6 +115,7 @@
             app:layout_row="1" />
 
         <Switch
+            android:id="@+id/switchLuci"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"
@@ -130,6 +134,7 @@
             app:layout_row="1" />
 
         <Switch
+            android:id="@+id/switchAnnaffiatoi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"
@@ -148,6 +153,7 @@
             app:layout_row="1" />
 
         <Switch
+            android:id="@+id/switchPortelloni"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"

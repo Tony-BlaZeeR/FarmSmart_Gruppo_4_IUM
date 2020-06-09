@@ -68,11 +68,12 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"
             android:layout_marginTop="40dp"
-            android:text="livello"
+            android:id="@+id/livelloMangiatoie"
             app:layout_column="0"
             app:layout_row="1" />
 
         <ProgressBar
+            android:id="@+id/mangiatoieProgressBar"
             style="@android:style/Widget.ProgressBar.Horizontal"
             android:layout_width="94dp"
             android:layout_height="wrap_content"
@@ -93,7 +94,7 @@
             app:layout_row="1" />
 
         <Switch
-            android:id="@+id/switch1"
+            android:id="@+id/switchMangiatoie"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"
@@ -112,6 +113,7 @@
             app:layout_row="1" />
 
         <Switch
+            android:id="@+id/switchCancelli"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="200dp"
